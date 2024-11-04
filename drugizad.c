@@ -33,7 +33,7 @@ int main() {
 	char lastname[20];
 	int birthyear;
 
-	position head=NULL; //initializing head
+	person head = { .fname = {0}, .lname = {0}, birthyear = 0,next = NULL } //podesi ovo i dodaj u pozive funkcije da je &head,a ne head jer je on sada person
 	head = (position)malloc(sizeof(person));
 	if (head == NULL) {
 		printf("Error allocating memory\n");
