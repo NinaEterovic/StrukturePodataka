@@ -49,13 +49,6 @@ int main()
 	inorder(root);
 	inorder_in_file(root, fp);
 
-
-
-
-
-
-
-
 	return 0;
 }
 
